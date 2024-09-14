@@ -1,4 +1,4 @@
-# -Diary-of-Defiant-Conduct
+# -Diary-of-Defiant-Conduct🐶
  Diary of Defiant Conduct（小美狗的绝不从良日记），Mostly record questions confusing me during C++ learning period. The answers mostly comes from chatGPT and the blogs from internet. Commumication and corrections are welcome, cause I really need and appreciate it. Let's figure out every question and become best XMG in the future. 
 
  ps: I am poor in English, hope that will not bother you alot.
