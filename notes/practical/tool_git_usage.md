@@ -11,11 +11,11 @@ vim .gitignore # Attention, the dot before gitignore can't be omitted.
 
 step 2: edit .gitignore file
 ```
-# the relevative path of the file you don't want to be manage by git
+# the relative path of the file you don't want to be manage by git
 notes/practical/temp_md.md
 ```
 
-After finishing the steps above, the modification of that file will be visiable to git management.
+After finishing the steps above, the modification of that file will be visible to git management.
 
 ---
 

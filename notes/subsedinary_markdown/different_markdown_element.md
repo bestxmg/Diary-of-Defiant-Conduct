@@ -18,7 +18,7 @@
          void print() { std::cout << x << std::endl; }
      };
      ```
-     key points: the symbol "cpp" after symbol ``` represent the lanuage of the code. If the name of a lanuage is provided, the keyword of the lanuage will be highlighted.
+     key points: the symbol "cpp" after symbol ``` represent the language of the code. If the name of a language is provided, the keyword of the language will be highlighted.
 ---
 
 ### 3. table

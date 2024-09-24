@@ -1,4 +1,7 @@
-## The difference between class and struct in C++🐶
+## Struct Vs Class🐶
+
+
+### The difference between class and struct in C++
 Though `struct` and `class` are very similar in functional usage, they have some differences in aspects of `default access control` and `default inheritance visibility`.
 
    - In a **`struct`**, members (both variables and methods) are **public** by default.
@@ -8,6 +11,8 @@ Though `struct` and `class` are very similar in functional usage, they have some
 
    - When a **`struct`** is used as a base class, inheritance is **public** by default.
    - When a **`class`** is used as a base class, inheritance is **private** by default.
+---
+### how to understand this : Additional difference: the keyword class can be used to declare template parameters, while the struct keyword cannot be so used.(WIP)
 ---
 ### why it says "struct for simple data structures, and class for more complex, object-oriented designs."
 `Everything you can do with a class in C++, you can also do with a struct.` 
@@ -27,7 +32,7 @@ Keep the above sentence in mind. On this basic, the reason why `"struct for simp
     Programers are used to accept the implication that struct is a simple data holder while class is a complicate data holder.
     
 ---
-finially, let's take an example to interpret how `struct` can perform Inheritance, Polymorphism and Encapsulation in object-orented-programing.
+finally, let's take an example to interpret how `struct` can perform Inheritance, Polymorphism and Encapsulation in object-oriented-programming.
 
 
 - Inheritance
