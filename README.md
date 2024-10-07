@@ -20,6 +20,9 @@
 - [enum](notes/question/cpp_learning/enum.md)
 - [modulo operation on negative number](notes/question/cpp_learning/modulo_operation.md)
 - [narrowing conversion WIP](notes/question/cpp_learning/narrowing_conversion.md)
+- [nullptr_vs_NULL](notes/question/cpp_learning/nullptr_vs_NULL.md)
+- [using vs typedef](notes/question/cpp_learning/using_vs_typedef.md)
+- [const reference](notes/question/cpp_learning/const_reference.md)
 ### Part 2. Practical tools and wiki
 - [wiki_markdown_usage](notes/practical/wiki_markdown_usage.md)
 - [wiki_git_usage](notes/practical/wiki_git_usage.md)
@@ -27,3 +30,4 @@
 - [naming_convention](notes/practical/naming_convention.md)
 - [VSCode skills](notes/practical/tool_vscode.md)
 ### Part 3. Chitchat
+- [american apple account](notes/chitchat/american_apple_id.md)

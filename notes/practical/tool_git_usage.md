@@ -1,6 +1,24 @@
 ## Knowledge about Git🐶
 
-### 1. .gitignore file
+### 1. Install and config git
+
+**step 1:** install git
+```bash
+yum install git
+```
+
+**step 2:** config git
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+```
+**step 3** connect to GitHub with SSH
+```bash
+ssh-keygen -t ed25519 -C "your_email@example.com" # if it's your first time generate SSH. You can just type enter until end.
+vim ~/.ssh/id_ed25519.pub # copy the text in this file, then open github to add new SSH key, paste the text in the textbox named "key"
+```
+[Link of adding new SSH key](https://github.com/settings/ssh/new)
+### 2.  .gitignore file
 
 The .gitignore file ,created in the git repository, is use to specify those files or folders we don't want it to be managed by git. We can use a .gitignore file in following steps:
 
@@ -18,8 +36,6 @@ notes/practical/temp_md.md
 After finishing the steps above, the modification of that file will be visible to git management.
 
 ---
-
-### 2.
 ### 3.
 ### 4.
 ### 5.
