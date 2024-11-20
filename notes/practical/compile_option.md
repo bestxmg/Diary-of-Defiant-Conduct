@@ -6,6 +6,11 @@
 g++ -dM -E -x c++ nul | findstr __cplusplus
 # output:
 #define __cplusplus 201402L
+
+#linux version
+g++ -dM -E -x c++ /dev/null | grep __cplusplus
+#output:
+#define __cplusplus 199711L
 ```
 - -dM : lists all macros defined by the preprocessor.
 - -E : stops after the preprocessing stage.
@@ -18,3 +23,10 @@ g++ -std=c++11 ./*.cpp -Wall
 ```
 - -Wall : warning all
 - -std=c++11 : compile the program with c++11 standard
+
+
+###
+3 -Werror=vla
+
+
+-D NDEBUG WIP

@@ -13,3 +13,11 @@ From the code above, we can see that ```A reference to const can be initialized 
 Because reference to const guarantees that the value will not be modified. This allows the compiler to create a temporary object that holds the value.
 
 - [memory allocation in C++](./memory_allocation.md#1-how-c-allocate-memory-for-different-kind-of-objectswip)
+
+
+
+pit of const
+int const *pi;
+and 
+const int  *pi;
+are equivalent. both low level const

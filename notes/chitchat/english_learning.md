@@ -5,3 +5,10 @@ prep.
 conj.
 
 abbr.
+
+int. farewell
+
+
+
+WIP
+vowel and it's counterpart
