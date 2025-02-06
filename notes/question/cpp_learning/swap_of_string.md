@@ -75,3 +75,6 @@ int main() {
 - **For `std::string`**: These become invalid because `swap` transfers ownership of the internal memory, breaking the relationship between the original container and its iterators, references, and pointers.
 
 When working with `std::string` and `swap`, always update any iterators, references, or pointers after the operation to avoid undefined behavior.
+
+
+WIP

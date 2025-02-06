@@ -35,6 +35,50 @@ notes/practical/temp_md.md
 
 After finishing the steps above, the modification of that file will be visible to git management.
 
+
+
+To remove a folder from being tracked by Git (i.e., to stop Git from controlling it), you can use the following steps:
+
+### 1. Add the folder to `.gitignore`
+First, you should tell Git to ignore the folder by adding it to the `.gitignore` file. This prevents Git from tracking the folder in the future.
+
+- Open or create a `.gitignore` file in the root of your repository.
+- Add the folder path to the `.gitignore` file. For example, if the folder is named `myfolder`, add the following line:
+  ```
+  myfolder/
+  ```
+
+### 2. Remove the folder from Git’s index (staging area)
+Even after adding the folder to `.gitignore`, Git will still track the folder if it was previously committed. To stop tracking the folder, you need to remove it from Git's index:
+
+- Run the following command:
+  ```bash
+  git rm -r --cached myfolder
+  ```
+
+  This command removes the folder from the staging area but **does not delete the folder from your local file system**.
+
+### 3. Commit the changes
+Now, commit the changes to reflect that the folder is no longer tracked by Git:
+
+```bash
+git commit -m "Stop tracking folder 'myfolder'"
+```
+
+### 4. Push the changes (optional)
+If you're working with a remote repository, push the changes to update the remote:
+
+```bash
+git push
+```
+
+### Summary:
+- Add the folder to `.gitignore`.
+- Run `git rm -r --cached <folder>` to stop tracking it.
+- Commit and push the changes.
+
+This ensures that the folder is no longer tracked by Git and will not be included in future commits, while still remaining on your local machine.
+
 ---
 ### 3.
 ### 4.

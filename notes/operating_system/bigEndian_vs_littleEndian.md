@@ -181,3 +181,38 @@ So, the conversion to a 32-bit representation keeps the more significant bits in
 - **Big-endian** simplifies the process of converting between data sizes, as the most significant bytes are preserved in their original order, making it easier to maintain the integrity of data when changing its size. 
 
 This explains why different architectures favor different endian formats based on their design goals and operational efficiencies.
+
+
+
+BTW
+Yes, exactly! The **left shift** operation doesn't involve moving bits from the **right to the left** in terms of the direction of memory or byte order. Instead, it means that the **bits move from lower positions (low bit)** to **higher positions (high bit)** within the same data unit (e.g., a 32-bit register or variable).
+
+### **Left Shift (`<<`) Operation:**
+- When you perform a **left shift** on a number, the bits are **shifted to the left**.
+- This means that each bit in the number moves to a position with a **higher index** (closer to the more significant bits).
+- The **lower bits** (on the right) are **filled with zeros**.
+- The **leftmost bits** that "overflow" (after being shifted out of the register's size) are discarded.
+
+### **Example:**
+
+Let's take the 8-bit number `0b00010100` (which is `0x14` in hexadecimal), and shift it to the left by 2 bits.
+
+- **Initial binary value:** `00010100` (which is 20 in decimal)
+
+Performing a left shift by 2 bits (`<< 2`):
+- **Result after left shift:**
+  ```
+  00010100 << 2 = 01010000
+  ```
+
+### **Explanation:**
+- The bits move from **lower positions to higher positions**.
+- The **two rightmost bits** (`00`) are filled with zeros.
+- The bits from the **left** are pushed out and discarded.
+- The resulting value is `01010000` (which is 64 in decimal).
+
+### **Summary:**
+- **Left shift (`<<`)** means **moving bits to higher positions** (more significant bits).
+- It doesn't depend on the byte order (endianness) because it operates within the register's bit-level representation.
+
+I hope this clears up any confusion! Let me know if you need further clarification

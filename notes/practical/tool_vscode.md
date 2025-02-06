@@ -128,3 +128,142 @@ remove all the breakpoints
 
 
 workbench.editor.wrapTabs
+
+
+shutcut
+
+In **Visual Studio Code (VSCode)**, there are several useful keyboard shortcuts for navigating and managing your workspace, as well as opening multiple files and switching between them.
+
+### **VSCode Keyboard Shortcuts**:
+
+#### **Basic Navigation**:
+- **Ctrl + P**: Quick open (Search and open files by name).
+- **Ctrl + Shift + P**: Command Palette (Search and run commands).
+- **Ctrl + Tab**: Switch to the next open tab.
+- **Ctrl + Shift + Tab**: Switch to the previous open tab.
+- **Ctrl + 1**: Focus on the first editor group.
+- **Ctrl + 2**: Focus on the second editor group (if you have split the editor).
+- **Ctrl + `**: Open or close the integrated terminal.
+  
+#### **Text Selection and Editing**:
+- **Ctrl + A**: Select all text in the current editor.
+- **Ctrl + D**: Select the next occurrence of the current word (to select multiple occurrences).
+- **Ctrl + Shift + L**: Select all occurrences of the current word.
+- **Ctrl + /**: Toggle comment for the selected lines (single-line comment).
+- **Alt + Up Arrow**: Move the current line or selected lines up.
+- **Alt + Down Arrow**: Move the current line or selected lines down.
+
+#### **Opening and Managing Multiple Files**:
+- **Ctrl + \**: Split the editor into two (or more) editor groups.
+- **Ctrl + 1, 2, 3, etc.**: Focus between editor groups (if you have multiple editor groups open).
+- **Ctrl + Shift + E**: Open the **Explorer** view (for file navigation).
+- **Ctrl + Shift + F**: Open the search panel to search across all files.
+- **Ctrl + B**: Toggle the sidebar visibility (Explorer, Search, Git, etc.).
+
+#### **Switching Between Editors or Views**:
+- **Ctrl + Shift + T**: Reopen the last closed editor tab.
+- **Ctrl + K, then Ctrl + W**: Close all editor tabs.
+- **Ctrl + K, then Ctrl + S**: Open keyboard shortcuts (to customize or view them).
+
+### **Working with Multiple Pages (Tabs)**:
+To switch between multiple open files or views in VSCode, you can use the following:
+
+- **Ctrl + Tab**: Cycle forward through open tabs.
+- **Ctrl + Shift + Tab**: Cycle backward through open tabs.
+- **Ctrl + P**: Open a file quickly by typing its name.
+- **Ctrl + \**: Split the editor to view multiple files side by side.
+  - After splitting, use **Ctrl + 1**, **Ctrl + 2**, etc., to navigate between the editor groups.
+- **Ctrl + K, then Ctrl + Right Arrow**: Move to the next editor tab.
+- **Ctrl + K, then Ctrl + Left Arrow**: Move to the previous editor tab.
+
+### **Switching Between Views**:
+To switch between different panels or views (such as the Explorer, Search, Source Control, etc.), you can use these shortcuts:
+
+- **Ctrl + Shift + E**: Open the Explorer view (file and folder structure).
+- **Ctrl + Shift + F**: Open the Search panel to search across your project.
+- **Ctrl + Shift + G**: Open the Source Control panel (for Git).
+- **Ctrl + Shift + X**: Open the Extensions panel.
+
+### **Additional Tips**:
+- **Ctrl + `**: Open/close the integrated terminal.
+- **Ctrl + Shift + P**: Use the **Command Palette** to run any command (such as opening a new file, closing the terminal, etc.).
+- **Alt + Click**: Add a cursor at the clicked position for multi-cursor editing.
+- **Ctrl + F**: Find within the current file.
+- **Ctrl + H**: Find and replace within the current file.
+
+### **How to Open Different Pages (Editor Groups)**:
+You can open multiple editor groups in **VSCode**, allowing you to view multiple files side by side.
+
+1. **Ctrl + \**: Split the editor into two side-by-side groups. 
+2. To open different files in the new group, just open them like normal (by clicking or using **Ctrl + P** to search for a file).
+3. **Ctrl + 1**, **Ctrl + 2**, etc., let you switch between the different editor groups.
+4. **Drag and drop** a file from the Explorer into a new editor group (split view).
+
+These shortcuts and features will help you navigate between multiple files and manage your workspace in **VSCode**. Let me know if you'd like more detailed explanations on any specific feature!
+
+
+
+To **click the "File" button** in the top menu bar of **VSCode** using the keyboard, you can follow these steps:
+
+### **Access the Menu Bar (without the mouse)**:
+1. **Alt**: Press the **Alt** key to activate the menu bar.
+   - This will highlight the first menu item (File).
+   
+2. **Navigate through the menu options**:
+   - **F**: After pressing **Alt**, press **F** to open the **File** menu.
+   - Now, you can use the **Arrow keys** to navigate through the available options under the **File** menu.
+
+For example:
+- **Alt + F**: Opens the **File** menu.
+- Use the **Down Arrow** to navigate through the menu options (New File, Open, Save, etc.).
+- Press **Enter** to select the option you want.
+
+### **Shortcuts for Common File Menu Actions**:
+Here are some useful **File** menu shortcuts that you can use directly:
+
+- **Ctrl + N**: Create a new file.
+- **Ctrl + O**: Open a file.
+- **Ctrl + S**: Save the current file.
+- **Ctrl + Shift + S**: Save the current file as a new file.
+- **Ctrl + W**: Close the current file.
+- **Ctrl + Shift + W**: Close all files.
+
+### **Using the Command Palette to Access File Options**:
+Another way to access **File** options is through the **Command Palette**:
+
+1. **Ctrl + Shift + P**: Open the Command Palette.
+2. Type the name of the command you want (e.g., "New File", "Open File", etc.) and select it from the list.
+
+Let me know if you'd like more guidance on any specific menu options!
+
+
+
+To **close the panel** (which could be the **Explorer**, **Search**, **Source Control**, **Terminal**, etc.) in **Visual Studio Code**, you can use the following keyboard shortcuts:
+
+### **Close the Bottom Panel** (Terminal, Output, Problems, Debug Console, etc.):
+1. **Ctrl + `** (backtick): This shortcut opens and closes the integrated terminal or bottom panel.
+   - If the panel is already open, pressing **Ctrl + `** will close it.
+
+2. **Ctrl + J**: This will **toggle** the visibility of the entire bottom panel (Terminal, Problems, Output, etc.). If the panel is open, it will close; if it's closed, it will open.
+
+### **Close the Sidebar (Explorer, Source Control, etc.)**:
+- **Ctrl + B**: This will **toggle** the visibility of the sidebar (Explorer, Search, Source Control, etc.). If the sidebar is open, it will close; if it's closed, it will open.
+
+### **Close Specific Panels**:
+If you have a specific panel open, such as the **Search** or **Source Control** panel, you can use **Esc** to close it.
+
+- **Esc**: Close the currently active panel (like Search or Source Control).
+
+### **Summary**:
+- **Ctrl + `**: Toggle the terminal or bottom panel.
+- **Ctrl + J**: Toggle the bottom panel (Terminal, Problems, Output, etc.).
+- **Ctrl + B**: Toggle the sidebar (Explorer, Source Control, etc.).
+- **Esc**: Close the currently focused panel.
+
+Let me know if you need further clarifications!
+
+frequently used hot key
+- **Ctrl + 1**: Focus on the first editor group.
+- **Ctrl + Shift + E**: Open the Explorer view (file and folder structure).
+Windows/Linux: Ctrl + B  close the Side Bar
+Ctrl+K, W  close current editor group
