@@ -55,3 +55,12 @@ This way, it becomes cleaner and more concise, and there's no need to duplicate 
 - If you're on a platform where the redirection syntax differs, you might still need to provide separate sections, but for most cases, this combined approach is effective.
 
 WIP
+
+| Aspect              | Your Code                                     | Top Solution                                     | Effect                                                                         |
+| ------------------- | --------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------------------ |
+| **Loop**            | `for (auto i : intervals)`                    | `for (int i = 1; i < n; ++i)`                    | Your version **copies** `i` (a vector), while the other just indexes — faster. |
+| **Sort comparator** | `sort(..., [](a, b){ return a[0] < b[0]; })`  | `sort(...)`                                      | Default comparator is faster than lambda (tiny cost).                          |
+| **Result writing**  | `res.push_back(...)`                          | `ans.push_back(...)`                             | No difference here.                                                            |
+| **Initialization**  | Manual `intervalBegin`/`intervalEnd` tracking | `ans.push_back(v[0])` and track with index `res` | Slightly simpler logic; avoids extra conditions.                               |
+
+
